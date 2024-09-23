@@ -29,8 +29,10 @@
 12. 舒張期寬度在10%, 25%, 33%, 50%處 / 收縮期寬度在10%, 25%, 33%, 50%處(Diastolic Width at 10%, 25%, 33%, 50% / Systolic Width at 10%, 25%, 33%, 50%)
 
 ## 3. 網路模型
-網路模型包含：輸入層(共23個特徵)、卷積層、特徵融合層、模糊神經網路層，輸出層(預測血壓值)
+網路模型包含：輸入層(共23個特徵)、2層卷積層、特徵融合層、模糊神經網路層，輸出層(預測血壓值)
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure2.png)
 
+網路模型參數設定如下圖，並針對不同特徵融合層做比較：
+![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure7.png)
 
 ## 4. 成果展示
