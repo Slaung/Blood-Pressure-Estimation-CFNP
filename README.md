@@ -36,3 +36,11 @@
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure7.png)
 
 ## 4. 成果展示
+用測試集資料所預測之Bland-Altman統計數據：
+![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure4.png)
+在95%預測值中，接落在+20~-20的預測誤差。
+
+每個特徵對於模型之貢獻度分析：
+![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure8.png)
+![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure9.png)
+SHAP正值代表該特徵對於血壓預測的正貢獻，負值代表負貢獻。
