@@ -12,7 +12,7 @@
 
 ## 2. 資料集與預處理
 資料集有12000組實體數據，每組包含125Hz採樣率的PPG(光體積描記圖)、ABP(真實動脈信號)以及ECG信號。
-![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure2.png)
+![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure3.png)
 
 接著，對ECG和PPG波提取有關血壓等特徵，包含：
 1. 脈搏傳輸時間(Pulse transmission time, PTT)
@@ -29,6 +29,8 @@
 12. 舒張期寬度在10%, 25%, 33%, 50%處 / 收縮期寬度在10%, 25%, 33%, 50%處(Diastolic Width at 10%, 25%, 33%, 50% / Systolic Width at 10%, 25%, 33%, 50%)
 
 ## 3. 網路模型
+網路模型包含：輸入層(共23個特徵)、卷積層、特徵融合層、模糊神經網路層，輸出層(預測血壓值)
+![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure2.png)
 
 
 ## 4. 成果展示
