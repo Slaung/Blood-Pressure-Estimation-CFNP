@@ -7,4 +7,4 @@
 
 ## 1.系統架構
 
-![image]([picture or gif url](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure1.png))
+![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure1.png)
