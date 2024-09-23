@@ -42,6 +42,7 @@
 
 每個特徵對於模型之貢獻度分析：
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure8.png)
-![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure9.png)
 - SHAP正值代表該特徵對於血壓預測的正貢獻，負值代表負貢獻。
+
+![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure9.png)
 - 後續可以將貢獻度較小的特徵剔除掉，例如alpha。
