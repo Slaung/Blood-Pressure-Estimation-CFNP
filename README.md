@@ -30,26 +30,33 @@
 
 ## 3. 網路模型
 網路模型包含：輸入層(共23個特徵)、2層卷積層、特徵融合層、模糊神經網路層，輸出層(預測血壓值)
+
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure2.png)
 
 網路模型參數設定如下圖，並針對不同特徵融合層做比較：
+
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure7.png)
 
 ## 4. 成果展示
 用測試集資料所預測之Bland-Altman統計數據：
+
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure12.png)
+
 在95%預測值中，接落在+20~-20的預測誤差。
 
 預測誤差之統計長條圖：
 
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure11.png)
+
 可以發現，MAP預測之誤差約落在-60~20，對於較高的血壓有可能因為資料集太少，導致預測較不準確。
 
 每個特徵對於模型之貢獻度分析：
 
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure8.png)
+
 - SHAP正值代表該特徵對於血壓預測的正貢獻，負值代表負貢獻。
 
 
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure9.png)
+
 - 後續可以將貢獻度較小的特徵剔除掉，例如alpha。
