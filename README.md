@@ -21,7 +21,7 @@
 4. PPG最低強度(Lowest intensity of PPG)
 5. 光體積描記圖強度比(Photoplethysmogram intensity ratio)
 6. PPG之AC分量的最大幅度(AC component max Amplitude of PPG)
-7. Womersley數（血液動力學中的一個無量綱數）
+7. Womersley數（血液動力學中的一個無量綱數, alpha）
 8. 收縮期上升時間(Systolic Upstroke Time, SUT)
 9. 舒張期時間(Diastolic Time, DT)
 10. 收縮期寬度在10%, 25%, 33%, 50% 處(Systolic Width at 10%, 25%, 33% ,50%)
@@ -43,4 +43,5 @@
 每個特徵對於模型之貢獻度分析：
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure8.png)
 ![image](https://github.com/Slaung/Blood-Pressure-Estimation-CFNP/blob/main/Figure9.png)
-SHAP正值代表該特徵對於血壓預測的正貢獻，負值代表負貢獻。
+- SHAP正值代表該特徵對於血壓預測的正貢獻，負值代表負貢獻。
+- 後續可以將貢獻度較小的特徵剔除掉，例如alpha。
